@@ -20,7 +20,7 @@ import streamlit as st
 import pandas as pd
 
 # Load the predictions DataFrame
-predictions_df = pd.read_csv(r'C:\Users\disha\Downloads\Logistic Regression\Logistic Regression\Titanic_train.csv')
+predictions_df = pd.read_csv('Titanic_train.csv')
 
 def main():
     # Set the title of the app
