@@ -2,7 +2,8 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import pickle
-import scikit-learn
+from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
 
 def main():
     st.title("Titanic Survival Prediction App")
